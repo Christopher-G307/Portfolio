@@ -228,6 +228,12 @@ header {
   }
 }
 
+@media (max-width: 600px) {
+  header .logo {
+    margin-left: -45px;
+  }
+}
+
 .intro {
   position: relative;
   padding-top: 15em;
@@ -402,7 +408,6 @@ header {
   content: "";
   position: absolute;
   inset: 0.15vw;
-  /* background-color: rgb(97, 94, 112); */
   border-radius: 15px;
 }
 
