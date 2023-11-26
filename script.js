@@ -1,7 +1,7 @@
-hamburger = document.querySelector(".hamburger");
+const hamburger = document.querySelector(".hamburger");
+let navBar = document.querySelector(".nav-bar");
 
 hamburger.onclick = function () {
-  navBar = document.querySelector(".nav-bar");
   navBar.classList.toggle("active");
 };
 
