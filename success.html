@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      text-align: center;
+      color: white;
+      background: url(/img/bg-dark.jpg), no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 2rem 0;
+    "
+  >
+    <div style="display: flex; justify-content: center">
+      <img src="./img/wave.png" alt="" style="width: 200px" />
+    </div>
+    <h2>Your Email has been successfully submitted</h2>
+    <h3>Please wait, you will be directed back to the portfolio</h3>
+    <a href="https://christopher-g307.github.io/Portfolio/"
+      >Click Here to proceed</a
+    >
+
+    <script>
+      setTimeout(redirectToSite, 4000);
+      function redirectToSite() {
+        window.location = "https://christopher-g307.github.io/Portfolio/";
+      }
+    </script>
+  </body>
+</html>
